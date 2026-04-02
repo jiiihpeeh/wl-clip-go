@@ -6,6 +6,10 @@ A **Go library** for Wayland clipboard access via Rust FFI. No external binaries
 
 No more need for CLI tools like `wl-paste`/`wl-copy` installed on the system - embed clipboard access directly in your Go app.
 
+## Credits
+
+Built on top of [wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) by YaLTeR.
+
 ## Features
 
 - **Text clipboard**: Copy/paste text with proper UTF-8 handling
