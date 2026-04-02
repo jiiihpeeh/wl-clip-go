@@ -1,0 +1,54 @@
+# Binaries
+/wlclip
+/wlclipd
+wlclip-test
+wlclip-stripped
+wlclipd-stripped
+wlclip_test
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+*.race
+
+# Go workspace
+go.work
+go.work.sum
+
+# Rust
+rust/target/
+rust/Cargo.lock
+wlclipd-final
+wlclipd-new
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+*.a
+!*.a.gz
+*.so
+*.dylib
+
+# Generated arch-specific files
+go/wlclip/clip_amd64.go
+go/wlclip/clip_arm64.go
+
+# Test binary
+wlclip-test
+
+# Temporary files
+*.tmp
+*.temp
+wlclipd-upx
